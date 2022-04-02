@@ -1,0 +1,30 @@
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.096) 0px 25px 20px -20px;
+}
+.nav-item{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+ }
+ .nav-item a{
+     text-decoration: none;
+     margin-right: 20px;
+     color: 
+     rgba(30, 144, 194, 1);
+     font-size: 20px;
+     font-weight:700
+ }
+.logo img{
+    width: 180px;
+}
+.nav-item .link:hover {
+    color: #1b4388;
+  }
+  
+.nav-item .active-link {
+    text-decoration: none;
+   
+    font-size: 20px;
+    transition: color ease-in-out 300ms;
+    color: #0f2b5c;
+  }
